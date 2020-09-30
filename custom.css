@@ -1,0 +1,92 @@
+
+.border {border-bottom: 1px solid grey;}
+
+html,
+body {
+  height: 100%;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #fff;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+.nav {background-color: #fff;}
+
+.home .nav-item {
+  font-size:24px;
+}
+.non-home .nav-item {
+  font-size:20px;
+}
+.non-home .cont {
+  margin-top: 70px;
+}
+.nav-link {color:black;}
+.nav-link:hover {color:#006F9F; }
+.active {color: #006F9F;}
+
+.lead {
+  font-size: 20px;
+}
+.home .name {
+  font-size: 30px;
+  line-height: 1.2;
+
+}
+
+.home .nav {margin-top: 0;}
+
+.leftimg {width: 100%; margin:0; float: left;}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .home .lead {font-size: 20px;}
+  .home .name  {font-size:40px;}
+  .home .nav-item {font-size:30px;}
+  .non-home .lead {font-size:20px;}
+  .non-home .nav-item {font-size:21px;}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .home .lead {font-size: 22px;}
+  .home .name  {font-size:50px;}
+  .home .nav-item {font-size:33px;}
+  .non-home .lead {font-size:22px;}
+  .non-home .nav-item {font-size:22px;}
+
+  .non-home .leftimg  {width: 100%; margin:0 40px 10px 0; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home .lead {font-size: 22px;}
+  .home .name  {font-size:58px;}
+  .home .nav-item {font-size:35px;}
+  .non-home .lead {font-size:22px;}
+  .non-home .nav-item {font-size:23px;}
+  .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron { padding-top: 3rem;}
+  .home .lead {font-size: 25px; margin-left:20px; padding-top: 10px;}
+  .home .name {font-size: 70px;}
+  .home .nav-item {font-size:40px;}
+  .home .nav {margin-top: 20px;}
+  .non-home .lead {font-size:24px;}
+  .non-home .nav-item {font-size:24px;}
+  .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
+}
