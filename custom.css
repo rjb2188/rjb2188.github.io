@@ -28,6 +28,7 @@ body {
 
 .lead {
   font-size: 20px;
+  text-align: justify;
 }
 .home .name {
   font-size: 30px;
@@ -37,7 +38,7 @@ body {
 
 .home .nav {margin-top: 0;}
 
-.leftimg {width: 100%; margin:0; float: left;}
+.leftimg {width: 100%; margin-bottom:20px; float: left;}
 
 /*
 ####################################################
@@ -56,6 +57,7 @@ Bootstrap 4 breakpoints
   .home .nav-item {font-size:30px;}
   .non-home .lead {font-size:20px;}
   .non-home .nav-item {font-size:21px;}
+  .non-home .leftimg  {width: 100%; margin-bottom: 10px; }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -66,7 +68,7 @@ Bootstrap 4 breakpoints
   .non-home .lead {font-size:22px;}
   .non-home .nav-item {font-size:22px;}
 
-  .non-home .leftimg  {width: 100%; margin:0 40px 10px 0; }
+  .non-home .leftimg  {width: 100%; margin:0 0px 10px 0; }
 }
 
 /* Large devices (desktops, 992px and up) */
