@@ -30,6 +30,8 @@ body {
   font-size: 20px;
   text-align: justify;
 }
+h3 {
+  font-size: 23px;}
 .home .name {
   font-size: 30px;
   line-height: 1.2;
@@ -79,6 +81,7 @@ Bootstrap 4 breakpoints
   .non-home .lead {font-size:22px;}
   .non-home .nav-item {font-size:23px;}
   .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
+  h3 {font-size: 23px;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -91,4 +94,5 @@ Bootstrap 4 breakpoints
   .non-home .lead {font-size:24px;}
   .non-home .nav-item {font-size:24px;}
   .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
+  h3 {font-size: 27px;}
 }
