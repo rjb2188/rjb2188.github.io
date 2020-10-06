@@ -1,4 +1,3 @@
-
 .border {border-bottom: 1px solid grey;}
 
 html,
@@ -80,7 +79,7 @@ Bootstrap 4 breakpoints
   .home .nav-item {font-size:35px;}
   .non-home .lead {font-size:22px;}
   .non-home .nav-item {font-size:23px;}
-  .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
+  .non-home .leftimg  {width: 60%; margin:0 40px 0px 0; }
   h3 {font-size: 23px;}
 }
 
@@ -90,7 +89,7 @@ Bootstrap 4 breakpoints
   .home .lead {font-size: 25px; margin-left:20px; padding-top: 10px;}
   .home .name {font-size: 70px;}
   .home .nav-item {font-size:40px;}
-  .home .nav {margin-top: 20px;}
+  .home .nav {margin-top: 0px;}
   .non-home .lead {font-size:24px;}
   .non-home .nav-item {font-size:24px;}
   .non-home .leftimg  {width: 60%; margin:0 40px 10px 0; }
