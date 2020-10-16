@@ -25,7 +25,7 @@ body {
 .nav-link:hover {color:#006F9F; }
 .active {color: #006F9F;}
 
-.lead {
+.lead, .list  {
   font-size: 20px;
   text-align: justify;
 }
@@ -56,7 +56,7 @@ Bootstrap 4 breakpoints
   .home .lead {font-size: 20px;}
   .home .name  {font-size:40px;}
   .home .nav-item {font-size:30px;}
-  .non-home .lead {font-size:20px;}
+  .non-home .lead, .list  {font-size:20px;}
   .non-home .nav-item {font-size:21px;}
   .non-home .leftimg  {width: 100%; margin-bottom: 10px; }
 }
@@ -66,7 +66,7 @@ Bootstrap 4 breakpoints
   .home .lead {font-size: 22px;}
   .home .name  {font-size:50px;}
   .home .nav-item {font-size:33px;}
-  .non-home .lead {font-size:22px;}
+  .non-home .lead, .list  {font-size:22px;}
   .non-home .nav-item {font-size:22px;}
 
   .non-home .leftimg  {width: 100%; margin:0 0px 10px 0; }
@@ -77,9 +77,9 @@ Bootstrap 4 breakpoints
   .home .lead {font-size: 22px;}
   .home .name  {font-size:58px;}
   .home .nav-item {font-size:35px;}
-  .non-home .lead {font-size:22px;}
+  .non-home .lead, .list  {font-size:22px;}
   .non-home .nav-item {font-size:23px;}
-  .non-home .leftimg  {width: 50%; margin:0 40px 0px 0; }
+  .non-home .leftimg  {width: 45%; margin:0 40px 0px 0; }
   h3 {font-size: 23px;}
 }
 
@@ -90,8 +90,8 @@ Bootstrap 4 breakpoints
   .home .name {font-size: 70px;}
   .home .nav-item {font-size:40px;}
   .home .nav {margin-top: 0px;}
-  .non-home .lead {font-size:22px;}
+  .non-home .lead, .list {font-size:22px;}
   .non-home .nav-item {font-size:24px;}
-  .non-home .leftimg  {width: 50%; margin:0 40px 10px 0; }
+  .non-home .leftimg  {width: 45%; margin:0 40px 10px 0; }
   h3 {font-size: 25px;}
 }
