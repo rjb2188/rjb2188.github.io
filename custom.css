@@ -1,5 +1,12 @@
 .border {border-bottom: 1px solid grey;}
+.card {
+  border: none;
+}
 
+.card-header {
+  background-color: white;
+  padding: 5px 0;
+}
 html,
 body {
   height: 100%;
