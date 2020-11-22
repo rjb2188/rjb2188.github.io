@@ -2,10 +2,12 @@
 .card {
   border: none;
 }
+a {color: #006F9F;}
 
 .card-header {
   background-color: white;
   padding: 5px 0;
+  border-bottom: 0px;
 }
 html,
 body {
