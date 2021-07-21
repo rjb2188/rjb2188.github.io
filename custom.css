@@ -6,7 +6,7 @@ a {color: #006F9F;}
 
 .card-header {
   background-color: white;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
   border-bottom: 0px;
 }
 html,
@@ -105,6 +105,17 @@ Bootstrap 4 breakpoints
   .home .nav {margin-top: 0px;}
   .non-home .lead, .list {font-size:22px;}
   .non-home .nav-item {font-size:24px;}
-  .non-home .leftimg  {width: 46%; margin:0 40px 10px 0; }
+  .non-home .leftimg  {width: 50%; margin:0 40px 10px 0; }
   h3 {font-size: 25px;}
 }
+.card-header h6 {
+  margin-bottom: 0;
+}
+.card-header h6 a {
+  display: inline; margin:0 10px 0 0;
+  padding-left: 0;
+}
+.card-body {
+  padding: 5px 0 0 25px;
+}
+.card {margin: 10px 0;}
