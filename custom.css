@@ -66,7 +66,7 @@ Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
-  .home .lead {font-size: 20px;}
+  .home .lead {font-size: 18px;}
   .home .name  {font-size:40px;}
   .home .nav-item {font-size:30px;}
   .non-home .lead, .list  {font-size:20px;}
@@ -76,7 +76,7 @@ Bootstrap 4 breakpoints
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-  .home .lead {font-size: 22px;}
+  .home .lead {font-size: 20px;}
   .home .name  {font-size:50px;}
   .home .nav-item {font-size:33px;}
   .non-home .lead, .list  {font-size:22px;}
@@ -87,7 +87,7 @@ Bootstrap 4 breakpoints
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .home .lead {font-size: 22px;}
+  .home .lead {font-size: 20px;}
   .home .name  {font-size:58px;}
   .home .nav-item {font-size:35px;}
   .non-home .lead, .list  {font-size:22px;}
@@ -99,7 +99,7 @@ Bootstrap 4 breakpoints
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .jumbotron { padding-top: 3rem;}
-  .home .lead {font-size: 25px; margin-left:20px; padding-top: 10px;}
+  .home .lead {font-size: 22px; margin-left:20px; padding-top: 10px;}
   .home .name {font-size: 70px;}
   .home .nav-item {font-size:40px;}
   .home .nav {margin-top: 0px;}
