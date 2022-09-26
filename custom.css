@@ -3,7 +3,7 @@
   border: none;
 }
 a {color: #006F9F;}
- 
+
 .card-header {
   background-color: white;
   padding: 5px 0 0 0;
@@ -92,7 +92,8 @@ Bootstrap 4 breakpoints
   .home .nav-item {font-size:35px;}
   .non-home .lead, .list  {font-size:22px;}
   .non-home .nav-item {font-size:23px;}
-  .non-home .leftimg  {width: 45%; margin:0 40px 0px 0; }
+  /* before fixing papers .non-home .leftimg  {width: 45%; margin:0 40px 0px 0; } */
+  .non-home .leftimg  {width: 95%; margin:0 40px 0px 0; }
   h3 {font-size: 23px;}
 }
 
@@ -105,7 +106,8 @@ Bootstrap 4 breakpoints
   .home .nav {margin-top: 0px;}
   .non-home .lead, .list {font-size:22px;}
   .non-home .nav-item {font-size:24px;}
-  .non-home .leftimg  {width: 50%; margin:0 40px 10px 0; }
+  /*. before fixing papers non-home .leftimg  {width: 50%; margin:0 40px 10px 0; }*/
+  .non-home .leftimg  {width: 100%; margin:0 40px 10px 0; }
   h3 {font-size: 25px;}
 }
 .card-header h6 {
