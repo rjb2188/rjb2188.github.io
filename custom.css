@@ -121,3 +121,7 @@ Bootstrap 4 breakpoints
   padding: 5px 0 0 25px;
 }
 .card {margin: 10px 0;}
+.card-body p {
+    text-align: justify;
+}
+    
